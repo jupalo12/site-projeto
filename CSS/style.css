@@ -1,0 +1,1161 @@
+@font-face {
+    font-family: 'helveticaregular';
+    src: url('../FONT/helvetica-webfont.woff2') format('woff2'), url('../FONT/helvetica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'metropolislight';
+    src: url('../FONT/metropolis-light-webfont.woff2') format('woff2'), url('../FONT/metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0 auto;
+    background: linear-gradient(180deg, #F6FAFD 10%, #FFFFFF 19.4%);
+}
+
+.principal {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.principal1 {
+    height: 100%;
+    width: 1248px;
+    left: 240px;
+    top: 50px;
+    border-radius: [object Object]px;
+    margin: 0 auto;
+}
+
+.principal2 {
+    width: 1117px;
+    height: 560px;
+    left: 240px;
+    top: 903.18px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    margin-top: 75px;
+    margin-left: -8px;
+}
+
+.principal3 {
+    width: 1137.28px;
+    height: 1026px;
+    left: 220px;
+    top: 1613px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 80px;
+}
+
+.principal4 {
+    width: 1118px;
+    height: 709px;
+    left: 242px;
+    top: 2789px;
+    /* 3 */
+    background: #9C69E2;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 335px;
+    padding-top: 65px;
+}
+
+.principal5 {
+    width: 1600px;
+    height: 761px;
+    left: 0px;
+    top: 3648px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 1144px;
+    height: 60px;
+    left: 240px;
+    top: 50px;
+    display: flex;
+    padding-top: 35px;
+}
+
+.logo {
+    height: 35px;
+    width: 49px;
+    left: 240px;
+    top: 62px;
+    border-radius: 20px;
+}
+
+.logo2 {
+    height: 35px;
+    width: 49px;
+    left: 240px;
+    top: 62px;
+    border-radius: 20px;
+    margin-left: 107px;
+}
+
+.logo-1 {
+    height: 20px;
+    width: 20px;
+    left: 240px;
+    top: 77px;
+    border-radius: 20px;
+    background: #9C69E2;
+    margin-top: 13px;
+}
+
+.logo-2 {
+    height: 35px;
+    width: 20px;
+    left: 269px;
+    top: 62px;
+    border-radius: 20px;
+    background: #F063B8;
+}
+
+.nav {
+    width: 322px;
+    height: 30px;
+    left: 410px;
+    top: 65px;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navlist {
+    display: inline-flex;
+    color: blanchedalmond;
+    text-decoration: none;
+    marker: none;
+}
+
+.signup {
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    /* 1 */
+    color: #4B5D68;
+}
+
+.signup:hover {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.about {
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    /* 2 */
+    color: #212353;
+}
+
+.about:hover {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.help {
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    /* 1 */
+    color: #4B5D68;
+}
+
+.help:hover {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.featureslg {
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    /* 1 */
+    color: #4B5D68;
+}
+
+.featureslg:hover {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.style1 {
+    box-shadow: none;
+}
+
+.botaodemo {
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgb(75 93 104 / 29%);
+    border-radius: 50px;
+    margin-left: 565px;
+    border: blanchedalmond;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    justify-content: center;
+    margin-top: -14px;
+}
+
+.botaodemo:hover {
+    background-color: #edd8f1;
+    transform: rotate(1);
+}
+
+.setademo {
+    width: 20px;
+    height: 14px;
+    left: 1311px;
+    top: 73px;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+
+.botaolearn {
+    width: 170px;
+    height: 60px;
+    left: 240px;
+    top: 644px;
+    background: rgba(156, 105, 226, 1);
+    box-shadow: 0px 5px 5px rgb(75 93 104 / 13%);
+    border-radius: 50px;
+    border: blanchedalmond;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.botaolearn:hover {
+    width: 180px;
+    height: 70px;
+}
+
+.img1 {
+    width: 885px;
+    height: 468px;
+    left: 603px;
+    top: 336px;
+    background-image: url(../IMG/image1.png);
+    margin-left: 375px;
+    margin-top: -415px;
+}
+
+.img2 {
+    width: 477px;
+    height: 504px;
+    left: 251px;
+    top: 935px;
+    background-image: url(../IMG/image2.png);
+    background-size: 490px;
+    margin-top: 12px;
+}
+
+.headline {
+    width: 645px;
+    height: 464px;
+    left: 240px;
+    top: 240px;
+    margin-top: 135px;
+    margin-top: 144px;
+}
+
+.txtgiga {
+    height: 184px;
+    width: 645px;
+    left: 240px;
+    top: 240px;
+    border-radius: nullpx;
+    font-size: 80px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    font-family: 'helveticaregular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+    display: flex;
+    align-items: center;
+    /* 2 */
+    color: #212353;
+    padding-bottom: 65px;
+}
+
+.txtmini {
+    width: 380px;
+    height: 120px;
+    left: 240px;
+    top: 474px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    /* 1 */
+    color: #4B5D68;
+    display: inline-block;
+    line-height: 28, 8px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 29px */
+    /* 1 */
+    color: #4B5D68;
+    padding-top: 15px;
+}
+
+.txtgiga2 {
+    width: 475px;
+    height: 100px;
+    left: 790px;
+    top: 1028.18px;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.txtmini2 {
+    width: 474px;
+    height: 170px;
+    left: 790px;
+    top: 1168.18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    padding-top: 36px;
+}
+
+.div10 {
+    height: 120px;
+    background-color: white;
+}
+
+.div20 {
+    height: 150px;
+    background-color: white;
+}
+
+.div50 {
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.titlePrin3 {
+    width: 584px;
+    height: 160px;
+    left: 507.29px;
+    top: 1613px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.features {
+    position: absolute;
+    width: 405px;
+    height: 52px;
+    left: 596.29px;
+    top: 1613px;
+    font-family: 'helveticaregular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212353;
+    margin: 0 auto;
+    display: contents;
+}
+
+.txtfeatures {
+    position: absolute;
+    width: 584px;
+    height: 58px;
+    left: 507.29px;
+    top: 1715px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    position: sticky;
+}
+
+.div1 {
+    height: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-top: 35px;
+}
+
+.div2 {
+    height: 50%;
+    background-color: rgb(105, 105, 180);
+    display: flex;
+}
+
+.div31 {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.div32 {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.forma1 {
+    width: 442px;
+    height: 358px;
+    left: 328.29px;
+    top: 1873px;
+    /* 5 */
+    border-radius: 50px 15px;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-image: url(../IMG/figura1.png);
+    background-repeat: no-repeat;
+}
+
+.forma2 {
+    width: 442px;
+    height: 358px;
+    left: 328.29px;
+    top: 1873px;
+    /* 5 */
+    border-radius: 50px 15px;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-image: url(../IMG/forma2.png);
+    background-repeat: no-repeat;
+}
+
+.forma3 {
+    width: 442px;
+    height: 358px;
+    left: 328.29px;
+    top: 1873px;
+    /* 5 */
+    border-radius: 50px 15px;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-image: url(../IMG/forma3.png);
+    background-repeat: no-repeat;
+}
+
+.forma4 {
+    width: 442px;
+    height: 358px;
+    left: 328.29px;
+    top: 1873px;
+    /* 5 */
+    border-radius: 50px 15px;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-image: url(../IMG/forma4.png);
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    width: 232px;
+    height: 211px;
+    left: 239px;
+    top: 1946px;
+    background: url(../IMG/image3\ 1.png);
+    margin-left: -130px;
+    margin-top: -250px;
+}
+
+.searchdata {
+    width: 200px;
+    height: 50px;
+    left: 500.29px;
+    top: 1922px;
+    font-family: 'helveticaregular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: #212353;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.searchtxt {
+    width: 220px;
+    height: 160px;
+    left: 500.29px;
+    top: 1992px;
+    color: black;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0 auto;
+    margin-top: 60px;
+    /* or 26px */
+    /* 1 */
+    color: #4B5D68;
+}
+
+.learn1 {
+    height: 26px;
+    left: 500.29px;
+    top: 2172px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    margin-left: 113px;
+    margin-top: 30px;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: #212353;
+}
+
+.title24 {
+    width: 200px;
+    height: 50px;
+    left: 1087.28px;
+    top: 1922px;
+    font-family: 'helveticaregular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    color: #212353;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.txt24 {
+    width: 220px;
+    height: 160px;
+    left: 1087.28px;
+    top: 1992px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    /* 1 */
+    color: #4B5D68;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.learn2 {
+    height: 26px;
+    left: 1087.28px;
+    top: 2172px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: #212353;
+    margin-left: 113px;
+    margin-top: 37px;
+}
+
+.img4 {
+    width: 241px;
+    height: 185px;
+    left: 813px;
+    top: 1944px;
+    background: url(../IMG/image4.png);
+    margin-top: -270px;
+    margin-left: -130px;
+}
+
+.print {
+    width: 200px;
+    height: 50px;
+    left: 500.29px;
+    top: 2330px;
+    font-family: 'helveticaregular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    color: #212353;
+    margin: 0 auto;
+    padding-top: 41px;
+}
+
+.printtxt {
+    width: 220px;
+    height: 160px;
+    left: 500.29px;
+    top: 2400px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    /* 1 */
+    color: #4B5D68;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.security {
+    width: 200px;
+    height: 50px;
+    left: 1087.28px;
+    top: 2330px;
+    font-family: 'helveticaregular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    color: #212353;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.securitytxt {
+    width: 220px;
+    height: 160px;
+    left: 1087.28px;
+    top: 2400px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    /* 1 */
+    color: #4B5D68;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.learn3 {
+    height: 26px;
+    left: 500.29px;
+    top: 2580px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: #212353;
+    margin-left: 113px;
+    margin-top: 17px;
+}
+
+.learn4 {
+    height: 26px;
+    left: 1087.28px;
+    top: 2580px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: #212353;
+    margin-left: 113px;
+    margin-top: 50px;
+}
+
+.img5 {
+    width: 245px;
+    height: 181px;
+    left: 220px;
+    top: 2404px;
+    background: url(../IMG/image5\ 1.png);
+    margin-top: -230px;
+    margin-left: -160px
+}
+
+.img6 {
+    width: 230px;
+    height: 201px;
+    left: 818px;
+    top: 2367px;
+    background: url(../IMG/image6\ 1.png);
+    margin-top: -245px;
+    margin-left: -123px;
+}
+
+.titlefim {
+    width: 584px;
+    height: 101px;
+    left: 240px;
+    top: 3750px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 114px;
+}
+
+.try {
+    width: 405px;
+    height: 52px;
+    left: 240px;
+    top: 3750px;
+    font-family: 'helveticaregular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+    display: flex;
+    align-items: center;
+    color: #212353;
+    padding-bottom: 30px;
+}
+
+.try2 {
+    width: 584px;
+    height: 29px;
+    left: 240px;
+    top: 3822px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    /* 1 */
+    color: #4B5D68;
+}
+
+.btnfim {
+    width: 420px;
+    height: 80px;
+    left: 947px;
+    top: 3771px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -169px;
+    margin-left: 895px;
+}
+
+.botaolearn2 {
+    width: 170px;
+    height: 60px;
+    left: 240px;
+    top: 644px;
+    background: rgba(156, 105, 226, 1);
+    box-shadow: 0px 5px 5px rgb(75 93 104 / 13%);
+    border-radius: 50px;
+    border: blanchedalmond;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.botaodemo2 {
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgb(225 227 227 / 98%);
+    border-radius: 50px;
+    margin-left: 196px;
+    margin-top: -63px;
+    border: blanchedalmond;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    /* 2 */
+    color: #212353;
+    justify-content: center;
+}
+
+.datawhare {
+    width: 153px;
+    height: 30px;
+    left: 309px;
+    top: 4004px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+    /* 2 */
+    color: #212353;
+    margin-top: -31px;
+    margin-left: 61px;
+}
+
+.endereço1 {
+    width: 252px;
+    height: 65px;
+    left: 240px;
+    top: 4101px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    letter-spacing: 0.01em;
+    /* 2 */
+    color: #212353;
+    margin-top: 86px;
+    margin-left: 107px;
+}
+
+.endereço2 {
+    width: 197px;
+    height: 60px;
+    left: 240px;
+    top: 4176px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    letter-spacing: 0.01em;
+    /* 2 */
+    color: #212353;
+    margin-left: 107px;
+    margin-top: 15px;
+}
+
+.listafim {
+    width: 166px;
+    height: 220px;
+    left: 715px;
+    top: 4011px;
+    margin-left: 645px;
+    margin-top: -254px;
+}
+
+.listafinal {
+    width: 166px;
+    height: 160px;
+    left: 715px;
+    top: 4071px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 250%;
+    /* or 40px */
+    /* 2 */
+    color: #212353;
+    margin-top: 58px;
+    margin-left: -42px;
+}
+
+.aboutclass {
+    width: 51.75px;
+    height: 30px;
+    left: 715px;
+    top: 4011px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 26px */
+    /* 2 */
+    color: #212353;
+}
+
+.listafim2 {
+    width: 166px;
+    height: 250px;
+    left: 931px;
+    top: 4011px;
+    margin-left: 865px;
+    margin-top: -220px;
+}
+
+.helpclass {
+    width: 51.75px;
+    height: 30px;
+    left: 931px;
+    top: 4011px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 160%;
+    /* or 26px */
+    /* 2 */
+    color: #212353;
+}
+
+.listafinal2 {
+    width: 166px;
+    height: 190px;
+    left: 931px;
+    top: 4071px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    /* or 40px */
+    /* 2 */
+    color: #212353;
+    margin-top: 58px;
+    margin-left: -42px;
+}
+
+.social {
+    width: 170px;
+    height: 30px;
+    left: 1147px;
+    top: 4011px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    /* 2 */
+    color: #212353;
+    margin-left: 1125px;
+    margin-top: -248px;
+}
+
+.sm {
+    width: 178px;
+    height: 50px;
+    left: 1147px;
+    top: 4071px;
+    margin-left: 1122px;
+    margin-top: 35px;
+}
+
+.rodape {
+    height: 120px;
+    margin-top: 315px;
+    width: 1320px;
+}
+
+.rodapetxt {
+    width: 360px;
+    height: 50px;
+    left: 240px;
+    top: 4354px;
+    font-family: 'metropolislight';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    /* or 22px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    /* 2 */
+    color: #212353;
+    margin-left: 107px;
+}
+
+.msg {
+    width: 60px;
+    height: 60px;
+    left: 1297px;
+    top: 4349px;
+    /* 3 */
+    margin-left: 95%;
+    margin-top: -94px;
+}
+
+.msg:hover {
+    width: 70px;
+    height: 70px;
+}
+
+.face:hover {
+    background-color: rgb(17, 0, 255);
+    border-radius: 50px;
+}
+
+.tw:hover {
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+.insta:hover {
+    background-color: palevioletred;
+    border-radius: 50px;
+}
+
+.listra {
+    width: 1600px;
+    height: 2px;
+    left: 0px;
+    top: 3648px;
+    /* 3 */
+    background: #9C69E2;
+    opacity: 0.2;
+    margin: 0 auto;
+}
+
+.prof:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.fea:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.carre:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.dw:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.helpclass:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.sup:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.sig:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.gui:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.rep:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.qea:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.aboutclass:hover {
+    font-weight: 800;
+    text-decoration: none
+}
+
+.principal3 a{
+    color: black;
+}
+
+.principal3 a:hover{
+text-decoration: none;
+}
