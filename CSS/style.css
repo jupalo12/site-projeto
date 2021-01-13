@@ -242,6 +242,10 @@ li {
     transform: rotate(1);
 }
 
+.botaodemo:focus{
+  outline-style: none;
+}
+
 .setademo {
     width: 20px;
     height: 14px;
