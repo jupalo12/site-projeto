@@ -242,6 +242,18 @@ li {
     transform: rotate(1);
 }
 
+.botaodemo:focus {
+    outline-style: none;
+}
+
+.botaodemo2:focus {
+    outline-style: none;
+}
+
+.botaolearn2:focus {
+    outline-style: none;
+}
+
 .setademo {
     width: 20px;
     height: 14px;
@@ -277,6 +289,10 @@ li {
 .botaolearn:hover {
     width: 180px;
     height: 70px;
+}
+
+.botaolearn:focus {
+    outline-style: none;
 }
 
 .img1 {
@@ -1152,10 +1168,10 @@ li {
     text-decoration: none
 }
 
-.principal3 a{
+.principal3 a {
     color: black;
 }
 
-.principal3 a:hover{
-text-decoration: none;
+.principal3 a:hover {
+    text-decoration: none;
 }
