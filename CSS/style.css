@@ -242,6 +242,7 @@ li {
     transform: rotate(1);
 }
 
+<<<<<<< HEAD
 .botaodemo:focus {
     outline-style: none;
 }
@@ -252,6 +253,10 @@ li {
 
 .botaolearn2:focus {
     outline-style: none;
+=======
+.botaodemo:focus{
+  outline-style: none;
+>>>>>>> bbb86c54c7f5c26c56b537c34475183333ca1620
 }
 
 .setademo {
@@ -1172,6 +1177,12 @@ li {
     color: black;
 }
 
+<<<<<<< HEAD
 .principal3 a:hover {
     text-decoration: none;
 }
+=======
+.principal3 a:hover{
+text-decoration: none;
+}
+>>>>>>> bbb86c54c7f5c26c56b537c34475183333ca1620
